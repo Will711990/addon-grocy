@@ -7,6 +7,9 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
 # hadolint ignore=DL3003
+
+RUN apt-get install curl wget nano
+
 RUN \
     apk add --no-cache \
         nginx=1.20.2-r0 \
