@@ -8,7 +8,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # Setup base
 # hadolint ignore=DL3003
 
-RUN apt-get install curl wget nano
+RUN apt-get install -y curl wget nano
 
 RUN \
     apk add --no-cache \
