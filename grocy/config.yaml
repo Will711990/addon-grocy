@@ -21,8 +21,8 @@ ports:
 ports_description:
   80/tcp: Web interface (Not required for Ingress)
 options:
-  culture: en
-  currency: USD
+  culture: fr
+  currency: EUR
   entry_page: stock
   features:
     batteries: true
